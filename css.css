@@ -1,0 +1,145 @@
+
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    text-align: center;
+    opacity: 0.95;
+}
+
+main {
+    background-color: black;
+    opacity: 1;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.bar {
+    display: flex;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    justify-content: right;
+    z-index: 1;
+    top: 0px;
+    opacity: 1;
+    background-color: black;
+}
+
+header img {
+    height: 50px;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+nav {
+    margin-right: 40px;
+}
+
+nav a {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#mission {
+    height: 700px;
+    width: 1200px;
+    background-image: url(./images/img-mission-background.jpg);
+    margin: 70px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#mission .content {
+    margin: auto;
+    width: 100%;
+    opacity: 0.85;
+    background-color: black;
+}
+
+#featured-tea {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 1000px;
+}
+
+.pack img {
+    height: 200px;
+    width: 300px;
+    margin: auto 10px;
+}
+
+.immagini {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#locations {
+    width: 1200px;
+    height: 500px;
+    background-image: url(./images/img-locations-background.jpg);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px auto auto auto;
+    align-content: center;
+}
+
+.title-locations {
+    background-color: transparent;
+    font-weight: bolder;
+    margin: auto;
+    width: 100%;
+    font-size: 30px;
+    opacity: 1;
+    color: whitesmoke;
+}
+
+.informations {
+    justify-content: center;
+    margin: auto;
+    display: inline-flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.blocks {
+    width: 300px;
+    margin: 0px 20px;
+    justify-content: center;
+    background-color: black;
+    z-index: 1;
+    flex-wrap: wrap;
+    opacity: 0.85;
+}
+
+.city {
+    font-weight: bolder;
+    font-size: 25px;
+    opacity: 1;
+    text-decoration: underline;
+}
+
+#contacts {
+    margin: 50px auto auto 0px;
+    padding-bottom: 50px;
+    height: 200px;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.copyright {
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
